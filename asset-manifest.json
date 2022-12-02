@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7ce01765.css",
-    "main.js": "./static/js/main.8ee65d23.js",
+    "main.js": "./static/js/main.4ed461e4.js",
     "static/media/Lato-Light.ttf": "./static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
     "static/media/Lato-Regular.ttf": "./static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/black.woff": "./static/media/black.771eaf637b6aa5a6dcde.woff",
@@ -17,10 +17,10 @@
     "static/media/icon_close.svg": "./static/media/icon_close.4015e1a3ba8fc1e3117572512f13d881.svg",
     "index.html": "./index.html",
     "main.7ce01765.css.map": "./static/css/main.7ce01765.css.map",
-    "main.8ee65d23.js.map": "./static/js/main.8ee65d23.js.map"
+    "main.4ed461e4.js.map": "./static/js/main.4ed461e4.js.map"
   },
   "entrypoints": [
     "static/css/main.7ce01765.css",
-    "static/js/main.8ee65d23.js"
+    "static/js/main.4ed461e4.js"
   ]
 }
