@@ -50,8 +50,8 @@ const UlBox = styled.div`
 const FinishedBox = styled.div`
   
   .progress-count{
-    height: 40px;
-    width:40px;
+    height:30px;
+    width:30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,8 +63,8 @@ const FinishedBox = styled.div`
     background: linear-gradient(120deg,#3198f9, #00c1ff);
     &:before{
       content: "";
-      height: 10px;
-      width: 20px;
+      height: 8px;
+      width: 15px;
       border-left: 3px solid #000;
       border-bottom: 3px solid #000;
       position: absolute;
@@ -75,9 +75,18 @@ const FinishedBox = styled.div`
     }
   }
 `
+
+const TitleBox = styled.div`
+    margin-bottom: 10px;
+  font-family: "bold";
+  font-size: 20px;
+`
 export default function Step4(){
     return <Box>
         <UlBox>
+            <TitleBox>
+                Uploaded Document
+            </TitleBox>
             <div className="w100">
                 <FinishedBox>
                     <div className="progress-count" />
@@ -91,7 +100,11 @@ export default function Step4(){
                     </dd>
                 </dl>
             </div>
+            <TitleBox>
+               Signers
+            </TitleBox>
            <div className="w100">
+
                <FinishedBox>
                    <div className="progress-count" />
                </FinishedBox>
