@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import BgImg from "../../assets/images/bg.png";
 import GroupImg from "../../assets/images/icon_group.svg";
+import PDFimg from "../../assets/images/icon_pdf.svg";
 
 const Box = styled.div`
   margin-top: 40px;
@@ -93,7 +94,7 @@ export default function Step4(){
                 </FinishedBox>
                 <dl>
                     <dt>
-                        <img src={GroupImg} alt=""/>
+                        <img src={PDFimg} alt=""/>
                     </dt>
                     <dd>
                         <div className="name">123.pdf</div>
