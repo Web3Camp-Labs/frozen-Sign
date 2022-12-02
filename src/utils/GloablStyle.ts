@@ -8,6 +8,11 @@ const GlobalStyle = createGlobalStyle`
       padding: 0;
       margin: 0;
       font-family: "Lato-Regular";
+      scrollbar-width: none!important;
+      &::-webkit-scrollbar {
+        width: 0 ;
+        display: none;
+      }
     }
     body,html{
       background:#141417;
